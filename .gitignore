@@ -1,0 +1,9 @@
+project.config.json
+dist/
+deploy_versions/
+.temp/
+.rn_temp/
+node_modules/
+.DS_Store
+project*
+yarn-error.log

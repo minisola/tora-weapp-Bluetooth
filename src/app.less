@@ -1,0 +1,61 @@
+page {
+    background: #f9f9f9;
+  }
+  .print-head {
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+    .icon-wrap {
+      .zan-icon {
+        background: #2395f3;
+        color: #fff;
+        line-height: 100px;
+        font-size: 50px;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        border-radius: 50%;
+      }
+    }
+    .print-title {
+      padding: 10px;
+    }
+  }
+  .cell-active {
+    background: #f1f1f1;
+  }
+  .print-page {
+    padding-bottom: 50px;
+  }
+  .print-btn {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .progress {
+    &-box {
+      padding: 30px;
+    }
+    &-bar {
+      height: 30px;
+      border-radius: 30px;
+      background: #eee;
+      position: relative;
+      overflow: hidden;
+    }
+    &-line {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 30px;
+      border-radius: 30px;
+      background: linear-gradient(to right, #ac89ff, #2078db);
+      transition: all 0.1s;
+    }
+    &-tips {
+      padding: 10px;
+      text-align: center;
+      font-size: 13px;
+    }
+  }
