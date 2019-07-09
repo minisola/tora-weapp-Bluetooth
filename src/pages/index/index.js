@@ -6,6 +6,7 @@ import './index.less'
 
 export default class Index extends Component {
   constructor() {
+    super()
     this.state = {
       waybillCode: '',
       printBtnShow: false,
